@@ -1,0 +1,17 @@
+.element {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 8em;
+}
+
+.item {
+    padding-right: 4em;
+}
+
+.divider {
+    padding: 2px;
+    background-color: black;
+    margin-right: 4em;
+}

@@ -1,0 +1,35 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.form {
+    display: flex;
+    align-items: center;
+}
+
+.div {
+    padding-bottom: 1em;
+}
+
+.field {
+    margin-right: 1em;
+    font-size: 15px;
+    width: 200px;
+    height: 35px;
+}
+
+.button {
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+}
+
+.description {
+    width: 500px;
+}

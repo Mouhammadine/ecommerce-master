@@ -1,0 +1,16 @@
+<app-toolbar></app-toolbar>
+<div class="container">
+    <div class="title">
+        <span>Produits</span>
+    </div>
+    <div class="home">
+        <div class="home-element card-div">
+            <div *ngFor="let it of list">
+                <app-product-card [item]="it"></app-product-card>
+            </div>
+        </div>
+        <div class="home-element basket">
+            <app-basket></app-basket>
+        </div>
+    </div>
+</div>

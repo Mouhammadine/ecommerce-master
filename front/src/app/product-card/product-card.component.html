@@ -1,0 +1,21 @@
+<div class="card">
+    <mat-card class="card-body">
+        <mat-card-header>
+            <div class="title">{{item.name}}</div>
+        </mat-card-header>
+        <img mat-card-image src="{{item.imgUrl}}" width="200" height="200">
+        <mat-card-content>
+            <div class="description">{{item.description}}</div>
+        </mat-card-content>
+        <mat-card-actions>
+            <div class="bottom">
+                <div class="price">{{item.price}} Euros</div>
+                <div class="button">
+                    <div (click)="addItem()">
+                        <mat-icon class="cart">add_shopping_cart</mat-icon>
+                    </div>
+                </div>
+            </div>
+        </mat-card-actions>
+    </mat-card>
+</div>

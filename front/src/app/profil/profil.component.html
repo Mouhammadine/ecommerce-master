@@ -1,0 +1,15 @@
+<app-toolbar></app-toolbar>
+<div class="container">
+    <div class="title">Mes commandes</div>
+    <div class="orders" *ngFor="let order of orders">
+        <div class="date">Le {{order.date}}</div>
+        <div class="products" *ngFor="let product of order.products">
+            <div class="detail">{{product.name}}</div>
+            <div class="price">{{product.price}} Euros</div>
+        </div>
+        <div class="total">
+            <div class="font">Total</div>
+            <div class="total-price">{{order.total}} Euros</div>
+        </div>
+    </div>
+</div>

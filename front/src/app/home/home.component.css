@@ -1,0 +1,30 @@
+.home {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.title {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 1em;
+}
+
+.card-div {
+    flex: 2;
+}
+
+.home-element {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7em;
+    margin-top: 5em;
+    margin-right: 7em;
+}

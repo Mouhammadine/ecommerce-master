@@ -1,0 +1,40 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.div {
+    padding-bottom: 1em;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5em;
+}
+
+.name {
+    display: flex;
+    flex: 5;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.price {
+    display: flex;
+    flex: 1;
+}
+
+.icon {
+    display: flex;
+    margin-right: 20em;
+}
+
+.cart {
+    cursor: pointer;
+}

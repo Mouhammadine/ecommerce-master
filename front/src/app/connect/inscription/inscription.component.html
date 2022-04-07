@@ -1,0 +1,19 @@
+<div class="login">
+    <div class="element">
+        <span class="title">Inscription</span>
+    </div>
+    <div class="element">
+        <div class="field">
+            <input class="field" matInput placeholder="Email" [(ngModel)]="email">
+        </div>
+        <div class="field">
+            <input class="field" matInput placeholder="Name" [(ngModel)]="name">
+        </div>
+        <div class="field">
+            <input class="field" matInput placeholder="Password" [(ngModel)]="password" type="password">
+        </div>
+    </div>
+    <div class="element">
+        <button class="button" (click)="onSignIn()">Sign in</button>
+    </div>
+</div>

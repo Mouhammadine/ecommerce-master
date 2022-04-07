@@ -1,0 +1,24 @@
+<div class="basket">
+    <div class="top">
+        <span class="title">Panier</span>
+    </div>
+    <div class="main">
+        <div *ngFor="let element of list">
+            <div class="sub-item">
+                <app-basket-item [item]="element"></app-basket-item>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="item">
+            <div class="total">Total</div>
+            <div class="price">{{totalAmount}} euros</div>
+        </div>
+        <div class="item button-button" (click)="checkout()">
+            <div>
+                Checkout
+            </div>
+        </div>
+        <div class="message" *ngIf="message !==null">{{message}}</div>
+    </div>
+</div>

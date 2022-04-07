@@ -1,0 +1,18 @@
+<mat-toolbar class="bar">
+    <div class="title button">
+        <span class="titre" (click)="goToHome()">Mon site d'ecommerce</span>
+    </div>
+    <div class="example-spacer"></div>
+    <div class="prop">
+        <span class="user" *ngIf="user !== null">Bienvenue {{user.name}}</span>
+    </div>
+    <div *ngIf="user !== null" class="prop button" (click)="goToProfil()">
+        <mat-icon class="option-button">account_circle</mat-icon>
+    </div>
+    <div class="button prop" *ngIf="user === null" (click)="goToLogIn()">
+        <mat-icon class="option-button">login</mat-icon>
+    </div>
+    <div *ngIf="user !== null" (click)="onLogOut()" class="prop button">
+        <mat-icon class="option-button">logout</mat-icon>
+    </div>
+</mat-toolbar>

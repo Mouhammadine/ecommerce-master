@@ -1,0 +1,22 @@
+<div class="main">
+    <div class="div">
+        <span class="subtitle">Liste de produits</span>
+    </div>
+    <div>
+        <div *ngFor="let product of productList">
+            <div class="list">
+                <div class="name">
+                    <span>{{product.name}}</span>
+                </div>
+                <div class="price">
+                    <span>{{product.price}} Euros</span>
+                </div>
+                <div (click)="deleteItem(product.id)" class="icon">
+                    <mat-icon class="cart">delete</mat-icon>
+                </div>
+                <div class="space"></div>
+            </div>
+        </div>
+    </div>
+</div>
+

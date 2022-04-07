@@ -1,0 +1,24 @@
+.item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.item-div {
+    display: flex;
+    padding-right: 20px;
+}
+
+.first-item {
+    display: flex;
+    flex: 1;
+}
+
+.word {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.icon {
+    cursor: pointer;
+}

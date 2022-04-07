@@ -1,0 +1,16 @@
+<div class="item">
+    <div class="item-div first-item word">
+        <span>{{item.name}}</span>
+    </div>
+    <div class="item-div word">
+        <span>{{item.nb}}x</span>
+    </div>
+    <div class="item-div word">
+        <span>{{item.price}} euros</span>
+    </div>
+    <div>
+        <div (click)="onDelete()" class="icon">
+            <mat-icon>delete</mat-icon>
+        </div>
+    </div>
+</div>

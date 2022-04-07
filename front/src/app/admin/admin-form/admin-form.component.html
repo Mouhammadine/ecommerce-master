@@ -1,0 +1,13 @@
+<div class="main">
+    <div class="div">
+        <span class="subtitle">Ajouter un nouveau produit</span>
+    </div>
+    <div class="form">
+        <input class="field" matInput placeholder="Nom du produit" [(ngModel)]="name">
+        <input class="field description" matInput placeholder="Description" [(ngModel)]="description">
+        <input class="field" matInput placeholder="Prix du produit" [(ngModel)]="price">
+        <input class="field" matInput placeholder="Image url" [(ngModel)]="imageUrl">
+        <button (click)="addProduct()" class="button">Submit</button>
+    </div>
+</div>
+
